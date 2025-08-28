@@ -10,8 +10,12 @@ A short, first-week module to demonstrate key skills:
 - expose a function named get_tagline() that can be imported into other modules
 - run this file as a script via main() using the if __name__ == '__main__' pattern
 
-Author: Abdellah Boudlal - edited from Denise Case
+
+
+Author: Abdellah Boudlal
 """
+
+
 
 #####################################
 # Import Modules
