@@ -1,6 +1,24 @@
 # datafun-01-utils
 
-This repository contains utility files and setup for the DataFun 01 professional Python project.
+# datafun-01-utils
+
+This repository contains utility files and setup for the DataFun 01 professional Python project.  
+It demonstrates professional Python development, including:
+
+- Creating Python modules
+- Using variables, data types, f-strings, and lists
+- Logging with Loguru
+- Running Python scripts with a virtual environment
+- Basic statistics operations
+- Custom byline module
+
+---
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Aboudlal/datafun-01-utils.git
 
 ## Installation
 
@@ -20,6 +38,7 @@ This repository contains utility files and setup for the DataFun 01 professional
 
 ## Project Structure
 
-- README.md
-- .gitignore
-- requirements.txt
+- README.md - this file
+- .gitignore - files to ignore for Git
+- requirements.txt- files to ignore for Git
+- utils_abdellah.py - project dependencies
