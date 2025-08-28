@@ -1,7 +1,7 @@
 """
 File: utils_abdellah.py
 
-Purpose: Reusable header/tagline module for analytics projects.
+Purpose: Reusable header/tagline module for analytics projects
 
 Description:
 A short, first-week module to demonstrate key skills:
@@ -10,8 +10,8 @@ A short, first-week module to demonstrate key skills:
 - expose a function named get_tagline() that can be imported into other modules
 - run this file as a script via main() using the if __name__ == '__main__' pattern
 
-Author: Abdellah Boudlal - edited Denise Case
-
+Author: Abdellah Boudlal - edited from Denise Case
+"""
 
 #####################################
 # Import Modules
@@ -54,14 +54,16 @@ logger.info("Logger loaded.")
 # ----------------------------------
 is_accepting_clients: bool = True
 offers_remote_workshops: bool = True
-is_hiring: bool = False
+is_hiring = False
+
+
 
 # ----------------------------------
 # Define Integer variables
 # ----------------------------------
 current_year: int = 2025
 year_started: int = 2020
-number_of_employees: int = 25
+number_of_employees = 25
 
 
 # ----------------------------------
@@ -72,6 +74,8 @@ organization: str = "DataFun Project"
 motto: str = "Learning Python step by step"  
 location: str = "Philadelphia, PA"
 
+
+
 # ----------------------------------
 # Define List variables
 # ----------------------------------
@@ -80,8 +84,8 @@ services: list[str] = ["Data Analysis", "Machine Learning", "Business Intelligen
 
 # example list of floating point numbers
 satisfaction_scores: list[float] = [4.8, 4.6, 4.9, 5.0, 4.7]
+office_locations: list[str] = ["Philadelphia","NewYork","Chicago"]
 
-office_locations: list = ["Philadelphia", "New York", "Boston", "Chicago"]
 
 
 # ----------------------------------
@@ -93,8 +97,9 @@ min_score: float = min(satisfaction_scores)
 max_score: float = max(satisfaction_scores)
 count_of_services: int = len(services)
 count_of_scores: int = len(satisfaction_scores)
-
 count_of_locations: int = len(office_locations)
+
+
 
 
 # ----------------------------------
@@ -108,25 +113,27 @@ stdev_score: float = statistics.stdev(satisfaction_scores)
 # ----------------------------------
 byline: str = f"""
 **********************************************************
-{organization} - Project Header
+{organization} — Project Header
 **********************************************************
 Author:                     {author}
 Motto:                      {motto}
 Years Active:               {years_active}
 Accepting New Clients?:     {is_accepting_clients}
 Remote Workshops?:          {offers_remote_workshops}
-Hiring?:                    {is_hiring}
-Number of Employees:        {number_of_employees}
-Location:                   {location}
-Office Locations:           {office_locations} (Total: {count_of_locations})
 Services:                   {services}
 Client Satisfaction Scores: {satisfaction_scores}
 Minimum Satisfaction Score: {min_score}
 Maximum Satisfaction Score: {max_score}
 Mean Satisfaction Score:    {mean_score:.2f}
-Standard Deviation:         {stdev_score:.2f}
+     Standard Deviation:    {stdev_score:.2f}
+Is Hiring:                  {is_hiring}
+Number of Employees:        {number_of_employees}
+Location:                   {location}
+Office Locations:           {office_locations}
+Number of Locations:        {count_of_locations}
 **********************************************************
 """
+
 
 
 #####################################
