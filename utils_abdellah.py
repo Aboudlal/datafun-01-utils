@@ -104,8 +104,6 @@ count_of_scores: int = len(satisfaction_scores)
 count_of_locations: int = len(office_locations)
 
 
-
-
 # ----------------------------------
 # Use the built-in statistics module functions (such as mean, stdev, etc.)
 # ----------------------------------
@@ -177,8 +175,8 @@ def main() -> None:
     loguru.logger.info("Byline:\n" + get_byline())
 
     try:
-        # TODO: Uncomment next line if you want audio feedback (use CTRL+C to stop)
-        # read_byline_aloud()
+        
+        read_byline_aloud()
         pass
     except KeyboardInterrupt:
         logger.info("Speech interrupted by user (Ctrl+C).")
